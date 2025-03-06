@@ -1,0 +1,102 @@
+html {
+    background-image: linear-gradient(yellow, orange);
+}
+body {   
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Libre Baskerville";
+    color: white;
+    text-shadow: 2px 2px black;
+}
+main, footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.header-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    position: relative;
+    bottom: 140px;
+}
+.product-info{
+    width: 80%;
+    margin: 5px;
+    padding: 20px;
+    background: rgba(255, 0, 0, 0.6);
+    border-radius: 15px; 
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+.product-info:hover{
+    width: 90%;
+    height: 90%;
+}
+.company-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(150, 0, 255, 0.6);
+    border-radius: 15px; 
+}
+.contact{
+    width: 45%;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(150, 0, 255, 0.6);
+    border-radius: 15px; 
+}
+.company-logo{
+    margin: 0;
+    padding: 0;
+}
+.border-above{
+    position: absolute;
+}
+.border-below {
+    position: relative;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    padding: 10px;
+}
+.submit{
+    background-color: darkmagenta;
+    border-radius: 10px;
+    border: 2px;
+    width: 100%;
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+p{
+    font-size: 30px;
+}
